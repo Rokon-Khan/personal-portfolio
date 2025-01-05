@@ -1,9 +1,15 @@
+import { FaGithub } from "react-icons/fa6";
 const CardSection = () => {
+  //   https://i.ibb.co.com/k0bt7YT/PH-A-9-Winter-Doantion.png
+  // https://i.ibb.co.com/MfHz8NH/Ph-A-10-Fund-Raiser-1.png
+  // https://i.ibb.co.com/jfK1VPL/Ph-A-11-Assignment-Management.png
+  // https://i.ibb.co.com/Sm8bRTH/Ph-A-11-Assignment-Management-1.png
   const projects = [
     {
-      title: "Service Orbit",
+      title: "Assignment Management",
+      image: "https://i.ibb.co.com/jfK1VPL/Ph-A-11-Assignment-Management.png",
       description:
-        "Service Orbit is a service-sharing web application designed to connect service providers with potential clients.",
+        "The Assignment Management System which Teachers can create, update, and manage assignments in real-time, while students can submit their work and track deadlines",
       techStack: [
         "React",
         "TailwindCSS",
@@ -12,23 +18,16 @@ const CardSection = () => {
         "MongoDB",
         "Javascript",
       ],
-      livePreview: "#",
+      livePreview: "https://ph-assignment-management-system.surge.sh/",
       github: "#",
       details: "#",
     },
+
     {
-      title: "Md Rokonuzzaman",
+      title: "Fund Raiser",
+      image: "https://i.ibb.co.com/MfHz8NH/Ph-A-10-Fund-Raiser-1.png",
       description:
-        "Hello! Md Rokonuzzaman, a passionate and dedicated Front-end developer with a knack for creating vibrant applications.",
-      techStack: ["Javascript", "TailwindCSS", "React"],
-      livePreview: "#",
-      github: "#",
-      details: "#",
-    },
-    {
-      title: "Adventure",
-      description:
-        "Film Fusion is an interactive and feature-rich platform designed to cater to movie enthusiasts.",
+        "fundraising campaign is to raise funds to advance key initiatives in Technology/Healthcare that will drive meaningful change.",
       techStack: [
         "React",
         "TailwindCSS",
@@ -37,56 +36,43 @@ const CardSection = () => {
         "Javascript",
         "NodeJS",
       ],
-      livePreview: "#",
+      livePreview: "https://ph-assignment-fund-raiser-campaign.surge.sh/",
       github: "#",
       details: "#",
     },
+
     {
-      title: "GreenQuest Adventures",
-      description:
-        "GreenQuest Adventures is an eco-friendly exploration platform where users embark on thrilling adventures.",
-      techStack: ["React", "TailwindCSS", "Javascript", "Firebase"],
-      livePreview: "#",
-      github: "#",
-      details: "#",
-    },
-    {
-      title: "Quiz Website",
+      title: "Winter Donation",
+      image: "https://i.ibb.co.com/k0bt7YT/PH-A-9-Winter-Doantion.png",
       description:
         "BistroBoss is a modern dining experience that blends gourmet flavors with a casual, welcoming atmosphere.",
-      techStack: [
-        "React",
-        "TailwindCSS",
-        "Javascript",
-        "Firebase",
-        "MongoDB",
-        "NodeJS",
-        "Express",
-      ],
-      livePreview: "#",
-      github: "#",
-      details: "#",
-    },
-    {
-      title: "Weather Checked",
-      description:
-        "The Weather Checker application provides users with real-time weather updates, making it easy to plan their day.",
-      techStack: ["HTML", "Javascript", "CSS"],
-      livePreview: "#",
+      techStack: ["React", "TailwindCSS", "Javascript", "Firebase"],
+      livePreview: "http://assignment-9-winter-donation.surge.sh/",
       github: "#",
       details: "#",
     },
   ];
 
   return (
-    <div className="bg-blue-50 py-16">
-      <h2 className="text-3xl font-bold text-center mb-10">Works</h2>
+    <div id="projects" className="bg-blue-50 py-10 mt-10">
+      <div className="max-w-[300px] mx-auto">
+        <h2 className="bg-green-100 p-2 rounded-full text-3xl font-bold text-center mb-10">
+          My Recent Projects
+        </h2>
+      </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-lg overflow-hidden"
+            className="bg-slate-100 flex flex-col items-center p-5 shadow-lg rounded-lg overflow-hidden"
           >
+            <div className="bg-white rounded-lg p-3 w-[400px] h-[200px]">
+              <img
+                src={project.image}
+                alt=""
+                className="w-full h-auto object-contain"
+              />
+            </div>
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
@@ -103,19 +89,20 @@ const CardSection = () => {
               <div className="flex justify-between items-center">
                 <a
                   href={project.livePreview}
-                  className="text-blue-600 hover:text-blue-800 font-bold"
+                  target="_blank"
+                  className="text-green-600 btn hover:text-green-800 font-bold"
                 >
                   Live Preview
                 </a>
                 <a
                   href={project.github}
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-green-600 btn hover:text-green-800"
                 >
-                  <i className="fab fa-github"></i>
+                  <FaGithub />
                 </a>
                 <a
                   href={project.details}
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-green-600 btn hover:text-green-900"
                 >
                   Details
                 </a>

@@ -37,27 +37,24 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900">
+                <a href="#home" className="text-gray-600 hover:text-gray-900">
                   Home
                 </a>
               </li>
+
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900">
-                  About Me
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900">
-                  Skills
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900">
+                <a
+                  href="#projects"
+                  className="text-gray-600 hover:text-gray-900"
+                >
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900">
+                <a
+                  href="#contact"
+                  className="text-gray-600 hover:text-gray-900"
+                >
                   Contact
                 </a>
               </li>
@@ -68,29 +65,25 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu text-xl menu-horizontal px-1">
             <li>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              <a href="#home" className="text-gray-600 hover:text-gray-900">
                 Home
               </a>
             </li>
+
             <li>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
-                About Me
+              <a href="#resume" className="text-gray-600 hover:text-gray-900">
+                My Resume
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              <a href="#projects" className="text-gray-600 hover:text-gray-900">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              <a href="#contact" className="text-gray-600 hover:text-gray-900">
                 Contact
               </a>
             </li>
@@ -126,7 +119,11 @@ const Navbar = () => {
               )}
             </button>
           </div>
-          <a className="btn bg-green-600 font-bold text-white text-lg">
+          <a
+            href="https://drive.google.com/file/d/1By6WjyxtM7VII1vEyREHQDRn4Pqmukwo/view?usp=sharing"
+            target="_blank"
+            className="btn bg-green-600 font-bold text-white text-lg"
+          >
             Download Resume
           </a>
         </div>
