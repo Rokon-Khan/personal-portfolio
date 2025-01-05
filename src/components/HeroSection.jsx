@@ -29,15 +29,6 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      <div className="absolute right-10 top-1/4">
-        <img src="robot-image.png" alt="Robot" className="h-64" />
-        <div className="absolute top-10 left-10 bg-white p-2 rounded-lg shadow-lg">
-          <span className="text-green-600 font-bold">Responsive</span>
-        </div>
-        <div className="absolute top-20 left-20 bg-white p-2 rounded-lg shadow-lg">
-          <span className="text-green-600 font-bold">Best Quality</span>
-        </div>
-      </div>
     </div>
   );
 };
