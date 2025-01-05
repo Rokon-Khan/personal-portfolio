@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-100 py-4 px-6 flex justify-between items-center border-t border-gray-200">
+    <footer className="w-full bg-gray-100 py-4 px-6 flex lg:justify-between flex-col items-center border-t border-gray-200">
       {/* Logo Section */}
       <div className="text-green-500 font-bold text-lg">&lt;Rokon/&gt;</div>
 
@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="flex space-x-4">
         {/* Facebook */}
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/md.rokon.khan.04"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-blue-500"
@@ -31,7 +31,7 @@ const Footer = () => {
 
         {/* GitHub */}
         <a
-          href="https://github.com"
+          href="https://github.com/Rokon-Khan"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-black"
@@ -48,7 +48,7 @@ const Footer = () => {
 
         {/* LinkedIn */}
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/md-rokonuzzaman-a8a9a41aa/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 hover:text-blue-700"
@@ -77,23 +77,6 @@ const Footer = () => {
             viewBox="0 0 24 24"
           >
             <path d="M20.52 3.48a11.868 11.868 0 00-8.52-3.48c-6.63 0-12 5.37-12 12 0 2.12.55 4.21 1.59 6.04L0 24l5.11-1.52a11.982 11.982 0 006.4 1.84c6.63 0 12-5.37 12-12 0-3.22-1.26-6.25-3.48-8.52zm-8.52 18c-1.8 0-3.55-.48-5.09-1.39l-.36-.21-3.03.9.91-2.97-.23-.37A9.932 9.932 0 012.03 12c0-5.51 4.47-10 10-10 2.67 0 5.18 1.04 7.07 2.93 1.89 1.89 2.93 4.4 2.93 7.07 0 5.51-4.48 10-10 10zm5.3-7.55c-.29-.14-1.72-.85-1.99-.95s-.46-.15-.66.15-.76.95-.93 1.14c-.17.19-.34.21-.63.07a8.33 8.33 0 01-2.45-1.5 9.154 9.154 0 01-1.7-2.1c-.18-.31-.02-.47.13-.62.14-.14.31-.34.47-.51.15-.17.2-.29.3-.48.1-.19.05-.36-.02-.5-.07-.14-.66-1.6-.91-2.21-.24-.58-.49-.5-.66-.51-.17-.01-.36-.01-.55-.01s-.5.07-.76.36c-.25.29-.99.97-.99 2.36s1.02 2.73 1.16 2.91c.14.19 1.97 3 4.77 4.2.67.29 1.19.46 1.6.59.67.21 1.28.18 1.76.11.54-.08 1.72-.7 1.96-1.38.24-.69.24-1.28.17-1.4-.07-.12-.26-.19-.54-.33z" />
-          </svg>
-        </a>
-
-        {/* Messenger */}
-        <a
-          href="https://messenger.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-600 hover:text-blue-600"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 0C5.373 0 0 4.832 0 10.794c0 3.396 1.802 6.43 4.785 8.315v4.26L9.26 20.32c.901.249 1.856.377 2.741.377 6.627 0 12-4.832 12-10.793C24 4.832 18.627 0 12 0zm.486 15.048l-2.563-2.698-4.932 2.698 6.417-6.917 2.527 2.698 4.904-2.698-6.353 6.917z" />
           </svg>
         </a>
       </div>

@@ -17,13 +17,25 @@ const HeroSection = () => {
           </h2>
           <p className="text-lg text-gray-600 mt-2">Frontend Web Developer</p>
           <div className="mt-4 flex justify-start space-x-4 text-4xl">
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a
+              href="https://www.linkedin.com/in/md-rokonuzzaman-a8a9a41aa/"
+              target="_blank"
+              className="text-gray-600 hover:text-gray-900"
+            >
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a
+              href="https://github.com/Rokon-Khan"
+              target="_blank"
+              className="text-gray-600 hover:text-gray-900"
+            >
               <FaGithub />
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a
+              href="https://www.facebook.com/md.rokon.khan.04"
+              target="_blank"
+              className="text-gray-600 hover:text-gray-900"
+            >
               <FaFacebook />
             </a>
             <a href="#" className="text-gray-600 hover:text-gray-900">
