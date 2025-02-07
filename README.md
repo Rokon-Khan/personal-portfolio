@@ -1,12 +1,10 @@
 # 🚀 Personal Portfolio Website  
 
-![Portfolio Preview](https://via.placeholder.com/1200x600?text=Portfolio+Screenshot)  
+🔗 **Live Demo:** [md.rokonuzzaman.surge.sh](http://md.rokonuzzaman.surge.sh)  
 
 ## 🌟 Introduction  
 
 Hi, I’m **Md Rokonuzzamn**, a passionate **Frontend Developer** specializing in **React.js**. This portfolio showcases my skills, projects, and experience in modern web development. It is designed to provide a seamless user experience with a clean and responsive UI.  
-
-🔗 **Live Demo:** [md.rokonuzzaman.surge.sh](http://md.rokonuzzaman.surge.sh)  
 
 ---
 
