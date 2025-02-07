@@ -6,6 +6,25 @@ const CardSection = () => {
   // https://i.ibb.co.com/Sm8bRTH/Ph-A-11-Assignment-Management-1.png
   const projects = [
     {
+      title: "The Edu Management System",
+      image: "https://i.ibb.co.com/FqCY7cLS/Edu-Management-System.png",
+      description:
+        "EduManagement is a comprehensive Class Management System designed to streamline the educational experience for both teachers and students. It offers a user-friendly platform to manage classes, assignments, and student progress.",
+      techStack: [
+        "React",
+        "TailwindCSS",
+        "Firebase",
+        "NodeJS",
+        "Express",
+        "MongoDB",
+        "TansTstac Query",
+        "Javascript",
+      ],
+      livePreview: "https://edu-management-system.surge.sh/",
+      github: "https://github.com/Rokon-Khan/ph-assignment-12",
+      details: "https://github.com/Rokon-Khan/ph-assignment-12",
+    },
+    {
       title: "Assignment Management",
       image: "https://i.ibb.co.com/jfK1VPL/Ph-A-11-Assignment-Management.png",
       description:
@@ -19,8 +38,8 @@ const CardSection = () => {
         "Javascript",
       ],
       livePreview: "https://ph-assignment-management-system.surge.sh/",
-      github: "#",
-      details: "#",
+      github: "https://github.com/Rokon-Khan/ph-assignment-11",
+      details: "https://github.com/Rokon-Khan/ph-assignment-11",
     },
 
     {
@@ -37,20 +56,20 @@ const CardSection = () => {
         "NodeJS",
       ],
       livePreview: "https://ph-assignment-fund-raiser-campaign.surge.sh/",
-      github: "#",
-      details: "#",
+      github: "https://github.com/Rokon-Khan/ph-assignment-10",
+      details: "https://github.com/Rokon-Khan/ph-assignment-10",
     },
 
-    {
-      title: "Winter Donation",
-      image: "https://i.ibb.co.com/k0bt7YT/PH-A-9-Winter-Doantion.png",
-      description:
-        "BistroBoss is a modern dining experience that blends gourmet flavors with a casual, welcoming atmosphere.",
-      techStack: ["React", "TailwindCSS", "Javascript", "Firebase"],
-      livePreview: "http://assignment-9-winter-donation.surge.sh/",
-      github: "#",
-      details: "#",
-    },
+    // {
+    //   title: "Winter Donation",
+    //   image: "https://i.ibb.co.com/k0bt7YT/PH-A-9-Winter-Doantion.png",
+    //   description:
+    //     "BistroBoss is a modern dining experience that blends gourmet flavors with a casual, welcoming atmosphere.",
+    //   techStack: ["React", "TailwindCSS", "Javascript", "Firebase"],
+    //   livePreview: "http://assignment-9-winter-donation.surge.sh/",
+    //   github: "#",
+    //   details: "#",
+    // },
   ];
 
   return (

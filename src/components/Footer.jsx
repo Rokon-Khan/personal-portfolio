@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-100 py-4 px-6 flex lg:justify-between flex-col items-center border-t border-gray-200">
+    <footer className="w-full bg-gray-100 py-4 px-6 flex md:flex-row justify-between  items-center flex-col  border-t border-gray-200">
       {/* Logo Section */}
-      <div className="text-green-500 font-bold text-lg">&lt;Rokon/&gt;</div>
+      <div className="text-green-500 text-xl font-bold">&lt;Rokon/&gt;</div>
 
       {/* Contact Information */}
       <div className="flex items-center space-x-4 text-sm text-gray-600">
-        <span>rokonjust@gmail.com</span>
-        <span>+8801955767196</span>
+        <span className="text-xl font-bold">rokonjust@gmail.com</span>
+        <span className="text-xl font-bold">+8801955767196</span>
       </div>
 
       {/* Social Icons */}

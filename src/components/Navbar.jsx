@@ -60,7 +60,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="text-3xl font-bold">
+          <div className="text-3xl font-bold md:flex hidden">
             <span className="text-green-600">&lt;Rokon Dev/&gt;</span>
           </div>
         </div>
@@ -69,6 +69,16 @@ const Navbar = () => {
             <li>
               <a href="#home" className="text-gray-600 hover:text-gray-900">
                 Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="text-gray-600 hover:text-gray-900">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a href="#skills" className="text-gray-600 hover:text-gray-900">
+                My Skills
               </a>
             </li>
 
@@ -120,7 +130,7 @@ const Navbar = () => {
             </button>
           </div>
           <a
-            href="https://drive.google.com/file/d/1By6WjyxtM7VII1vEyREHQDRn4Pqmukwo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DW-tlN44209ktRcph4sKFIAVUVzmLf7n/view?usp=sharing"
             target="_blank"
             className="btn bg-green-600 font-bold text-white text-lg"
           >
